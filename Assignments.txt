@@ -1,0 +1,291 @@
+# Practical Assignment
+
+The following assignment is divided into modules. Complete the topics and hands-on activities under each module.
+
+For each module, you are required to:
+
+* Complete all listed hands-on activities.
+* Understand the concepts behind each task.
+* Record a video demonstrating your implementation.
+* Explain what you implemented, why you implemented it, and how it works.
+* Share the video along with required screenshots/evidence.
+
+---
+
+# Module 1 – AWS Fundamentals & Account Setup
+
+* Create an AWS Free Tier account.
+* Navigate through the AWS Management Console.
+* Explore AWS service categories.
+* Set up billing alarms for cost management.
+* Configure AWS CLI on your local machine.
+* Use AWS CLI to list available services.
+* Set up an IAM user with minimal permissions.
+* Enable MFA for root and IAM users.
+* Create an IAM user and assign policies.
+* Launch a Linux EC2 instance.
+* Connect to an EC2 instance via SSH.
+* Deploy a simple website using Amazon S3.
+* Configure an AWS Budget alert.
+* Create and attach an IAM role to an EC2 instance.
+* Set up AWS CLI and run basic commands.
+* Explore AWS Trusted Advisor recommendations.
+* Enable AWS CloudTrail for auditing.
+
+---
+
+# Module 2 – IAM & AWS CLI
+
+* Create an IAM group and attach a policy.
+* Generate access keys for an IAM user and configure them in AWS CLI.
+* Restrict an IAM user's access using IAM policies.
+* Enable MFA for IAM users.
+* Use AWS CLI to create and manage IAM roles.
+* Implement IAM roles for cross-account access.
+* Configure AWS CLI profiles for different accounts.
+* Attach a managed policy to an IAM user using AWS CLI.
+* Use AWS STS to assume a role temporarily.
+* Audit IAM policies using AWS IAM Access Analyzer.
+
+---
+
+# Module 3 – EC2 Fundamentals
+
+* Launch a Linux EC2 instance.
+* Launch a Windows EC2 instance.
+* Create a custom Security Group for SSH and RDP access.
+* Configure a key pair for secure login.
+* Configure EC2 instance metadata and user data.
+* Attach and mount an EBS volume to an EC2 instance.
+* Create an EC2 snapshot and restore it.
+* Resize an EC2 instance type.
+* Create an EC2 Launch Template.
+* Implement EC2 auto-recovery using CloudWatch.
+* Terminate an EC2 instance and validate data persistence.
+
+---
+
+# Module 4 – EC2 Solutions Architect Associate
+
+* Deploy an EC2 instance using a custom AMI.
+* Set up an Application Load Balancer with EC2 instances.
+* Implement EC2 Auto Scaling.
+* Use Spot Instances to reduce cost.
+* Configure an Elastic IP address for an EC2 instance.
+* Deploy an EC2 instance inside a private subnet.
+* Use AWS Systems Manager to access an EC2 instance without SSH.
+
+---
+
+# Module 5 – EC2 Instance Storage
+
+* Attach an EBS volume to an existing EC2 instance.
+* Create a snapshot of an EBS volume.
+* Restore an EC2 instance from a snapshot.
+* Resize an EBS volume without downtime.
+* Encrypt an EBS volume and attach it to an EC2 instance.
+
+---
+
+# Module 6 – High Availability & Scalability: ELB & ASG
+
+* Deploy an Application Load Balancer with two EC2 instances.
+* Create an Auto Scaling Group with EC2 instances.
+* Implement a scaling policy based on CPU utilization.
+* Attach an HTTPS listener to an ALB.
+* Implement health checks for an Auto Scaling Group.
+
+---
+
+# Module 7 – RDS, Aurora & ElastiCache
+
+* Launch an RDS instance and connect using MySQL Workbench.
+* Implement RDS automated backups and snapshots.
+* Explore Amazon Aurora.
+* Configure Amazon ElastiCache for Redis with an EC2 instance.
+* Implement caching using Amazon ElastiCache Memcached.
+* Use AWS Lambda to interact with an RDS instance.
+
+---
+
+# Module 8 – Amazon S3 Fundamentals
+
+* Create an S3 bucket and upload a file.
+* Enable versioning for an S3 bucket.
+* Configure S3 lifecycle policies for cost optimization.
+* Use AWS CLI to upload and download files from S3.
+* Enable server-side encryption for an S3 bucket.
+* Implement S3 access logging.
+* Set up static website hosting with S3.
+* Use S3 Transfer Acceleration for faster uploads.
+* Configure S3 event notifications to trigger a Lambda function.
+* Implement cross-region replication for an S3 bucket.
+
+---
+
+# Module 9 – Advanced Amazon S3
+
+* Configure S3 Object Lock for immutable backups.
+* Implement S3 Intelligent-Tiering for cost optimization.
+* Set up a private S3 bucket and access it through a VPC endpoint.
+* Enable access logs and analyze them using CloudTrail.
+* Configure pre-signed URLs for secure file access.
+* Automate S3 data backup using AWS Backup.
+
+---
+
+# Module 10 – Amazon S3 Security
+
+* Block public access to an S3 bucket.
+* Implement bucket policies to restrict access.
+* Use IAM roles to control S3 access.
+* Enable server-side encryption using AWS KMS keys.
+* Implement signed URLs for temporary access.
+* Use VPC endpoints for private S3 access.
+* Configure CloudTrail to monitor S3 API calls.
+* Implement MFA Delete for versioned objects.
+* Configure S3 Access Analyzer.
+* Use AWS Config to monitor S3 bucket security.
+
+---
+
+# Module 11 – CloudFront & AWS Global Accelerator
+
+* Deploy a CloudFront distribution for an S3 static website.
+* Restrict access to S3 using CloudFront signed URLs.
+* Configure CloudFront geo-restriction settings.
+* Integrate CloudFront with an ALB.
+* Monitor CloudFront performance using CloudWatch.
+* Understand the use cases and architecture of AWS Global Accelerator.
+
+---
+
+# Module 12 – AWS Storage
+
+* Deploy an Amazon EFS file system.
+* Mount EFS to an EC2 instance.
+* Test shared file access between multiple EC2 instances.
+
+---
+
+# Module 13 – Application Decoupling: SQS, SNS, Kinesis & ActiveMQ
+
+* Create an SQS queue and send test messages.
+* Implement an SQS queue with Lambda integration.
+* Set up an SNS topic and subscribe via email.
+* Integrate SNS with CloudWatch for event notifications.
+* Understand Kinesis use cases and architecture.
+* Explore Amazon MQ / ActiveMQ and its use cases.
+
+---
+
+# Module 14 – Containers on AWS: ECS, Fargate, ECR & EKS
+
+* Deploy a containerized application using ECS.
+* Configure an ECS cluster with EC2 launch type.
+* Deploy a serverless container using Fargate.
+* Push and pull Docker images from ECR.
+* Configure IAM roles for ECS tasks.
+* Understand the basic architecture and use cases of Amazon EKS.
+
+---
+
+# Module 15 – Serverless AWS
+
+* Deploy a Lambda function with API Gateway.
+* Implement a serverless REST API using DynamoDB.
+* Set up EventBridge for event-driven architecture.
+* Implement a serverless cron job using Lambda.
+* Use AWS SAM to build and deploy a serverless application.
+* Set up an S3 event trigger for Lambda.
+
+---
+
+# Module 16 – Serverless Solution Architecture
+
+* Design a serverless architecture using Lambda, API Gateway and DynamoDB.
+* Implement event-driven architecture using S3 and Lambda.
+* Deploy a serverless microservices-based application.
+* Implement a serverless notification system using SNS and Lambda.
+* Integrate serverless applications with SQS queues.
+* Design a serverless data-processing pipeline using Kinesis.
+* Secure serverless applications using AWS IAM policies.
+
+---
+
+# Module 17 – AWS Monitoring & Audit
+
+* Set up CloudWatch alarms for an EC2 instance.
+* Enable CloudTrail logging and analyze API calls.
+* Use CloudWatch Logs Insights to analyze application logs.
+* Configure CloudWatch custom metrics for an application.
+* Set up automated notifications using SNS and CloudWatch.
+* Monitor AWS Lambda performance using CloudWatch.
+* Implement security audits using AWS Security Hub.
+* Explore AWS Config for resource compliance monitoring.
+
+---
+
+# Module 18 – Advanced IAM & AWS Organizations
+
+* Implement IAM policies following the principle of least privilege.
+* Configure IAM roles for cross-account access.
+* Enable MFA for IAM users.
+* Use IAM Access Analyzer for permission validation.
+* Implement AWS Organizations for centralized account management.
+* Set up Service Control Policies (SCPs).
+* Monitor IAM activity using AWS CloudTrail.
+* Configure temporary access credentials using AWS STS.
+* Secure the AWS root account using AWS best practices.
+
+---
+
+# Module 19 – AWS Security & Encryption
+
+* Encrypt S3 data using AWS KMS.
+* Store sensitive application credentials in AWS Systems Manager Parameter Store.
+* Implement VPC security best practices.
+* Perform security audits using Amazon Inspector.
+* Understand AWS WAF and its use cases.
+* Understand AWS Shield and DDoS protection.
+* Implement encryption and secure secret management for an application.
+
+---
+
+# Module 20 – Networking: VPC
+
+* Create a custom VPC with public and private subnets.
+* Configure route tables for public and private subnets.
+* Configure an Internet Gateway.
+* Configure a NAT Gateway for outbound internet access from private subnets.
+* Use VPC peering to connect two VPCs.
+* Deploy an ALB inside a VPC and configure target groups.
+* Implement a private API Gateway endpoint.
+* Understand CIDR blocks, route tables, security groups and network ACLs.
+
+---
+
+# Module 21 – AWS Solution Architecture & CI/CD
+
+* Implement a CI/CD pipeline using AWS CodePipeline.
+* Deploy a microservices architecture using ECS and ALB.
+* Design a highly available application architecture.
+* Identify appropriate AWS services based on application requirements.
+* Explain scalability, availability, security and cost considerations.
+* Document the complete architecture using an architecture diagram.
+
+---
+
+# Video Submission Requirement
+
+For every module, submit a video demonstrating the completed hands-on activities.
+
+The video should clearly cover:
+
+* **What you implemented**
+* **Why the AWS service was used**
+* **Configuration/implementation steps**
+* **Live demonstration**
+* **Validation/testing**
+* **Important security and cost considerations**
+* **Cleanup of resources where applicable**
