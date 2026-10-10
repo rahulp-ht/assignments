@@ -1,0 +1,18 @@
+#!/bin/bash
+apt-get update -y
+apt-get install -y apache2
+
+cat > /var/www/html/index.html <<'EOF'
+<!DOCTYPE html>
+<html>
+<head><title>Module 6 Lab</title></head>
+<body>
+<h1>Module 6 - ALB and Auto Scaling</h1>
+<p>High availability lab is running.</p>
+<p>Instance: PLACEHOLDER</p>
+</body>
+</html>
+EOF
+
+sed -i "s/PLACEHOLDER/$(hostname)/" /var/www/html/index.html
+systemctl enable --now apache2
