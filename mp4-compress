@@ -1,0 +1,1 @@
+ffmpeg -i abc.mp4 -c:v libx264 -preset slower -crf 14 -c:a aac -b:a 256k Module.mp4
